@@ -1,8 +1,10 @@
 import React from 'react'
+import TitleBar from './TitleBar'
 
 const ContactPage = () => {
   return (
     <div>
+      <TitleBar/>
       <div className="container">
                 <div className="row">
                     <h1>Contacts</h1>

@@ -1,8 +1,10 @@
 import React from 'react'
+import TitleBar from './TitleBar'
 
 const HomePage = () => {
   return (
     <div>
+        <TitleBar/>
       <div className="container">
                 <div className="row g-3">
                     <h1>Home</h1>
